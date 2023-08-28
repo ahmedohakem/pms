@@ -15,16 +15,15 @@ $message = "
 <body>
 <p>Dear ".$manager_full_name.", this is the Performance  Management System.<br />
 <strong>".$current_session_full_name."</strong> APPROVED <strong>".$full_name."</strong> form. Please login to the system and do the necessary action.</p>
-<p><strong>System Link:</strong> <a href='https://elnefeidi.net/pms/'>https://elnefeidi.net/pms/</a></p>
+<p><strong>System Link:</strong> <a href='https://www.do-sd.net/pms/'>https://www.do-sd.net/pms/</a></p>
 <p>&nbsp;</p>
-<h4>PMS Digital Officer<br />
-Elnefeidi Group Holding Co. Ltd.</h4>
+<h4>PMS Digital Officer<br /></h4>
 </body>
 </html>
 ";
 
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-$headers .= 'From: Elnefeidi Group Performance Management System' . "\r\n";
+$headers .= 'From: Performance Management System' . "\r\n";
 mail($work_email_address,$subject,$message,$headers); */
 ?>
