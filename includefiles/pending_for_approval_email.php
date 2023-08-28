@@ -15,10 +15,9 @@ $message = "
 <body>
 <p>Dear ".$current_session_manager_full_name.", this is the Performance  Management System.<br />
 <strong>".$current_session_full_name."</strong> evaluated <strong>".$full_name."</strong>. Please login to the system and do  the necessary action.</p>
-<p><strong>System Link:</strong> <a href='https://elnefeidi.net/pms/'>https://elnefeidi.net/pms/</a></p>
+<p><strong>System Link:</strong> <a href='https://www.do-sd.net/pms/'>https://www.do-sd.net/pms/</a></p>
 <p>&nbsp;</p>
-<h4>PMS Digital Officer<br />
-Elnefeidi Group Holding Co. Ltd.</h4>
+<h4>PMS Digital Officer<br /></h4>
 </body>
 </html>
 ";
